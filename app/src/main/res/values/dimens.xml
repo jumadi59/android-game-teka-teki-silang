@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizeWidthBtnLarge">200dp</dimen>
+    <dimen name="sizeHeightBtnLarge">60dp</dimen>
+    <dimen name="sizeWidthBtn">150dp</dimen>
+
+    <dimen name="sizeHeigthBtn">36dp</dimen>
+    <dimen name="sizeBtnKeypad">33dp</dimen>
+
+    <dimen name="sizeTvXLarge">33sp</dimen>
+    <dimen name="sizeTvLarge">26sp</dimen>
+    <dimen name="sizeTvNormal1">23sp</dimen>
+    <dimen name="sizeTvNormal">20sp</dimen>
+    <dimen name="sizeTvMini">15sp</dimen>
+
+    <dimen name="sizeTvTitle">28sp</dimen>
+    <dimen name="sizeTvDescrip">16sp</dimen>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:background="@drawable/btn_keypad_selector"
+                android:layout_margin="5dp"
+                android:layout_gravity="center">
+
+    <TextView
+            android:id="@+id/tv_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            tools:text="20"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"/>
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+            android:id="@+id/layout_winner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_dialog"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true">
+
+        <RelativeLayout android:id="@+id/layout_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="10dp">
+
+            <TextView android:id="@+id/tv_descripsi"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="@dimen/sizeTvDescrip"
+                      android:textColor="@color/colorBlack"
+                      tools:text="Selamat Ada telah selesai"
+                      android:layout_centerHorizontal="true"
+                      android:layout_below="@+id/img"
+                      android:gravity="center" />
+
+            <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/game_over"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/tv_title"/>
+
+            <TextView android:id="@+id/tv_title"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      tools:text="Berhasil"
+                      android:textSize="@dimen/sizeTvTitle"
+                      android:textColor="@color/colorBlack"
+                      android:layout_marginBottom="10dp"
+                      android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+        <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="@dimen/sizeWidthBtnLarge"
+                android:layout_height="@dimen/sizeHeigthBtn"
+                android:text="@string/ok"
+                android:background="@drawable/btn_orange_selector"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/layout_text"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/sizeTvNormal1"/>
+
+        <Button
+                android:id="@+id/btn_batal"
+                android:layout_width="@dimen/sizeWidthBtnLarge"
+                android:layout_height="@dimen/sizeHeigthBtn"
+                android:text="@string/batal"
+                android:background="@drawable/btn_white_selector"
+                android:textSize="@dimen/sizeTvNormal1"
+                android:layout_below="@+id/btn_ok"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="35dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

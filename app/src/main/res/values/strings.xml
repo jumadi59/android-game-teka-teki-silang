@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Teka-teki Silang (TTS)</string>
+    <string name="ad_unit_id_app">ca-app-pub-7501163859714779~9289525258</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7501163859714779/5223832323</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-7501163859714779/7210156827</string>
+    <string name="video_reward_ad_unit_id">ca-app-pub-7501163859714779/5523215229</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="mulai">Mulai</string>
+    <string name="setting">Setting</string>
+    <string name="keluar">Keluar</string>
+    <string name="more_app">More Apps &amp; Games</string>
+    <string name="rate">Rate</string>
+    <string name="jumbox_studios">2018 Jumbox Studios</string>
+    <string name="point">Point : %s</string>
+    <string name="level">TTS #Level %s</string>
+    <string name="score">Score : %s</string>
+    <string name="teka_teki_silang">Teka Teki Silang Indonesia</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="cek">Cek</string>
+    <string name="ok">OK</string>
+    <string name="batal">Batal</string>
+    <string name="tekan">TEKANKOTAK</string>
+    <string name="artinya">Artinya : %s</string>
+    <string name="share">Share</string>
+    <string name="lanjut">Lanjut</string>
+
+    <string name="title_soal_habis">Soal Habis !</string>
+    <string name="rate_me">Rate Me</string>
+    <string name="soal_habis">Waduh, soalnya Habis ni, Tunggu update selanjutnya ya</string>
+    <string name="title_failed_load">Gagal dimuat !</string>
+    <string name="video_failed_load">Video gagal dimuat !, Coba hubungkan perangkat ke jaringan internet</string>
+    <string name="title_show_video">Tonton Video Iklan</string>
+    <string name="show_interstitial">Tampilkan interstitial untuk mendapatkan bantuan</string>
+    <string name="show_video">Anda akan menonton Video iklan untuk mendapatkan %s , Klik OK untuk melanjutkan</string>
+    <string name="nilai">+%s</string>
+    <string name="title_batas_cek_habis">Batas CEK habis !</string>
+    <string name="batas_cek_habis">Batas CEK telah habis !, kamu harus menggunakan bantuan</string>
+    <string name="title_guna_bantuan">Guna Bantuan</string>
+    <string name="guna_bantuan">Untuk menggunakan Bantuan, Anda harus tonton Video untuk mendapat bantuan</string>
+    <string name="bantuan_sudah_digunakan">Bantuan telah digunakan</string>
+    <string name="txt_share_app">Main TTS yuk. Daripada bengong mending ngasah otak ? dengan game TTS, Ayo Download gratis di sini https://play.google.com/store/apps/details?id=%s</string>
+    <string name="title_share">Bagikan lewat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pilih_soal">Pilih Soal</string>
+    <string name="kamu_berhasil">Kamu berhasil !</string>
+    <string name="x">X</string>
+</resources>

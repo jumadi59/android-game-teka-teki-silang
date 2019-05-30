@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.jumbox.tekatekisilang.DialogRate">
+
+<RelativeLayout
+        android:id="@+id/ratingBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        tools:ignore="UselessParent">
+
+<LinearLayout android:id="@+id/layoutRate"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              tools:background="#FF0000" >
+
+    <ImageView
+            android:id="@+id/iconRating"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:width="70dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="ContentDescription"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="5dp"
+            android:layout_marginBottom="10dp">
+
+        <TextView
+                android:id="@+id/txtRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sizeTvTitle"
+                android:text="@string/rate_me"
+                android:textColor="#000"
+                android:layout_gravity="center_horizontal"/>
+
+        <RatingBar
+                android:id="@+id/rating"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:rotationX="0.3"
+                android:scaleX="1.0"
+                android:scaleY="1.0"
+                android:stepSize="0.5"
+                android:layout_gravity="center|bottom"
+                tools:background="#0000FF" />
+    </LinearLayout>
+</LinearLayout>
+
+
+    <Button
+            android:id="@+id/batal_rate"
+            android:layout_width="@dimen/sizeHeigthBtn"
+            android:layout_height="@dimen/sizeHeigthBtn"
+            android:background="@drawable/btn_delete_selector"
+            android:textSize="@dimen/sizeTvNormal1"
+            android:layout_margin="2dp"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/x"
+            android:layout_below="@+id/layoutRate"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"/>
+
+    <RelativeLayout
+            android:id="@+id/space"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/layoutRate"
+            android:layout_toEndOf="@+id/batal_rate"
+            android:layout_toRightOf="@+id/batal_rate"/>
+
+
+    <Button
+            android:id="@+id/btn_rate_me"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sizeHeigthBtn"
+            android:textSize="@dimen/sizeTvNormal1"
+            android:background="@drawable/btn_orange_selector"
+            android:layout_margin="2dp"
+            android:text="@string/rate_me"
+            android:layout_below="@+id/layoutRate"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/space"
+            android:layout_toRightOf="@+id/space"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"/>
+
+</RelativeLayout>
+
+</RelativeLayout>

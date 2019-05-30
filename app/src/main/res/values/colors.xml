@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7cc623</color>
+    <color name="colorPrimaryDark">#47a64a</color>
+    <color name="colorAccent">#80ff84</color>
+
+    <color name="colorBackGround">#7cc623</color>
+
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#000</color>
+
+    <color name="colorTextFocus">#000</color>
+    <color name="colorText">#000</color>
+    <color name="colorKotakFocus">#7cc623</color>
+    <color name="colorKotakSelectArea">#B3B3B3</color>
+</resources>

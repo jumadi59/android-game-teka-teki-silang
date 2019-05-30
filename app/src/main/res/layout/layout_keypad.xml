@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+    <LinearLayout
+            android:id="@+id/btn_keypad"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+            <Button
+                    android:id="@+id/btn_1"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:layout_height="@dimen/sizeBtnKeypad"
+                    style="@style/buttonKeypadStyle"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"/>
+
+            <Button
+                    android:id="@+id/btn_2"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:layout_height="@dimen/sizeBtnKeypad"
+                    style="@style/buttonKeypadStyle"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"/>
+
+            <Button
+                    android:id="@+id/btn_3"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:layout_height="@dimen/sizeBtnKeypad"
+                    style="@style/buttonKeypadStyle"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"/>
+
+            <Button
+                    android:id="@+id/btn_4"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:layout_height="@dimen/sizeBtnKeypad"
+                    style="@style/buttonKeypadStyle"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"/>
+
+            <Button
+                    android:id="@+id/btn_5"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:layout_height="@dimen/sizeBtnKeypad"
+                    style="@style/buttonKeypadStyle"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+            <Button
+                    android:id="@+id/btn_6"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:layout_height="@dimen/sizeBtnKeypad"
+                    style="@style/buttonKeypadStyle"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"/>
+
+            <Button
+                    android:id="@+id/btn_7"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:layout_height="@dimen/sizeBtnKeypad"
+                    style="@style/buttonKeypadStyle"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"/>
+
+            <Button
+                    android:id="@+id/btn_8"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:layout_height="@dimen/sizeBtnKeypad"
+                    style="@style/buttonKeypadStyle"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"/>
+
+            <Button
+                    android:id="@+id/btn_9"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:layout_height="@dimen/sizeBtnKeypad"
+                    style="@style/buttonKeypadStyle"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"/>
+
+            <Button
+                    android:id="@+id/btn_10"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:layout_height="@dimen/sizeBtnKeypad"
+                    style="@style/buttonKeypadStyle"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+            android:id="@+id/btn_hapus"
+            android:layout_width="@dimen/sizeBtnKeypad"
+            android:layout_height="@dimen/sizeBtnKeypad"
+            style="@style/buttonKeypadStyle"
+            android:background="@drawable/btn_delete_selector"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/btn_keypad"
+            android:layout_toEndOf="@id/btn_keypad"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:text="@string/x"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sizeTvNormal1"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/btn_hapus"
+            android:layout_toEndOf="@id/btn_hapus">
+
+        <Button
+                android:id="@+id/btn_cek"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sizeBtnKeypad"
+                style="@style/buttonKeypadStyle"
+                android:background="@drawable/btn_orange_selector"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/cek"/>
+
+        <Button
+                android:id="@+id/btn_bantuan"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sizeBtnKeypad"
+                style="@style/buttonKeypadStyle"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/btn_white_selector"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/bantuan"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

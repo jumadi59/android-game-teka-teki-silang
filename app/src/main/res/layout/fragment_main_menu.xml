@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.jumbox.tekatekisilang.MainMenuFragment"
+                android:background="@color/colorBackGround">
+
+    <ImageView
+            android:id="@+id/image_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:src="@drawable/teka_teki_silang"
+            android:scaleType="fitCenter"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="25dp"
+            tools:ignore="ContentDescription"/>
+
+    <LinearLayout
+            android:id="@+id/lin_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:layout_centerVertical="true">
+
+        <Button
+                android:id="@+id/btn_mulai"
+                android:layout_width="@dimen/sizeWidthBtnLarge"
+                android:layout_height="@dimen/sizeHeightBtnLarge"
+                android:background="@drawable/btn_play_selector"
+                android:layout_margin="5dp"
+                android:text="@string/mulai"
+                android:textSize="@dimen/sizeTvLarge"
+                android:textColor="@color/colorWhite"/>
+
+        <Button
+                android:id="@+id/btn_rate"
+                android:layout_width="@dimen/sizeWidthBtnLarge"
+                android:layout_height="@dimen/sizeHeightBtnLarge"
+                android:background="@drawable/btn_white_long_selector"
+                android:layout_margin="5dp"
+                android:text="@string/rate"
+                android:textSize="@dimen/sizeTvLarge"
+                android:textColor="@color/colorPrimary"/>
+
+        <Button
+                android:id="@+id/btn_more"
+                android:layout_width="@dimen/sizeWidthBtnLarge"
+                android:layout_height="@dimen/sizeHeightBtnLarge"
+                android:background="@drawable/btn_white_long_selector"
+                android:layout_margin="5dp"
+                android:text="@string/more_app"
+                android:textSize="@dimen/sizeTvLarge"
+                android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="3dp"
+            android:textSize="@dimen/sizeTvMini"
+            android:textColor="#d2d2d2"
+            android:text="@string/jumbox_studios"/>
+
+</RelativeLayout>

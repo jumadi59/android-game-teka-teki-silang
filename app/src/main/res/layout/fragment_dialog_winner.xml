@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/berhasil"
+            android:scaleType="fitCenter"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            tools:ignore="ContentDescription"/>
+
+    <RelativeLayout
+            android:id="@+id/menu_winner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_dialog"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true">
+
+        <RelativeLayout android:id="@+id/layout_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="10dp">
+
+            <TextView android:id="@+id/tv_point"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="40sp"
+                      android:textColor="@color/colorBlack"
+                      tools:text="+100"
+                      android:textStyle="bold"
+                      android:layout_centerHorizontal="true"
+                      android:layout_below="@+id/tv_title"
+                      android:gravity="center" />
+
+            <TextView android:id="@+id/tv_score"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="@dimen/sizeTvLarge"
+                      android:textColor="@color/colorBlack"
+                      tools:text="Score : 200"
+                      android:layout_centerHorizontal="true"
+                      android:layout_below="@+id/tv_point"
+                      android:gravity="center" />
+
+            <TextView android:id="@+id/tv_title"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/kamu_berhasil"
+                      android:textSize="@dimen/sizeTvTitle"
+                      android:textColor="@color/colorBlack"
+                      android:layout_marginBottom="10dp"
+                      android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+        <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="@dimen/sizeWidthBtnLarge"
+                android:layout_height="@dimen/sizeHeigthBtn"
+                android:text="@string/lanjut"
+                android:background="@drawable/btn_orange_selector"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/layout_text"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/sizeTvNormal1"/>
+
+        <Button
+                android:id="@+id/btn_batal"
+                android:layout_width="@dimen/sizeWidthBtnLarge"
+                android:layout_height="@dimen/sizeHeigthBtn"
+                android:text="@string/share"
+                android:background="@drawable/btn_white_selector"
+                android:textSize="@dimen/sizeTvNormal1"
+                android:layout_below="@+id/btn_ok"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="35dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
